@@ -15,6 +15,7 @@ class App extends React.Component {
         error: undefined
     }
 
+
     // When using "this" keyword inside a function, it bounds to the component
     getWeather = async (e) => {
         e.preventDefault();
